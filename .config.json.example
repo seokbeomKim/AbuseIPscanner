@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "filepath": "./logs",
+      "rules": [
+        "apache_log",
+        "test_log"
+      ]
+    }
+  ],
+  "dbSite": [
+    {
+      "name": "abuseipdb",
+      "url": "https://www.abuseipdb.com/check/",
+      "cheerio": "#report-wrapper > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > h3:nth-child(1)",
+      "suspicious": "was found",
+      "method": "get"
+    },
+    {
+      "name": "ipvoid.com",
+      "url": "https://www.ipvoid.com/ip-blacklist-check/",
+      "cheerio": ".table-striped .label-success",
+      "suspicious": "blacklisted",
+      "method": "post",
+      "payload": "ip"
+    }
+  ],
+  "rules": [
+    {
+      "name": "Apache access log",
+      "id": "apache_log",
+      "token": " ",
+      "index": "0",
+      "regex_match": "log_1",
+      "commands": [
+        "./test/echo.sh",
+        "./test/logger.sh"
+      ]
+    },
+    {
+      "name": "Test access log",
+      "id": "test_log",
+      "token": "-",
+      "index": "2",
+      "regex_match": "_2",
+      "commands": []
+    }
+  ]
+}

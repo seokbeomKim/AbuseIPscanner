@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "tsc && mocha -r ts-node/register **/*.test.ts"
+  },
+  "dependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^12.0.0",
+    "chai": "^4.2.0",
+    "cheerio": "^1.0.0-rc.3",
+    "mocha": "^6.1.4",
+    "module-alias": "^2.2.0",
+    "node": "^12.1.0",
+    "request": "^2.88.0",
+    "shelljs": "^0.8.3",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.4.5",
+    "typescript-ioc": "^1.2.5"
+  },
+  "license": "Apache-2.0",
+  "_moduleAliases": {
+    "@libs": "libs",
+    "@model": "libs/model",
+    "@util": "libs/util",
+    "@logs": "logs",
+    "@env": "libs/env.js",
+    "@error": "libs/error.js"
+  }
+}
