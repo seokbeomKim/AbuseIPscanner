@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "scripts": {
-    "tsc": "tsc",
+    "build": "tsc",
     "test": "tsc && mocha -r ts-node/register **/*.test.ts"
   },
   "dependencies": {

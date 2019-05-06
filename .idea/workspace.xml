@@ -4,18 +4,9 @@
     <list default="true" id="f3297456-b6bf-425c-9b1c-a3cf4e9db340" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/confReader.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/confReader.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/confReader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/testLog" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testLog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/echo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/echo.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/logger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/logger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/ipValidator.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipValidator.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/yarn-error.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.config.json.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="233">
+              <caret line="18" column="5" lean-forward="true" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -55,8 +46,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="318">
-                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              <first_editor relative-caret-position="385">
+                <caret line="101" column="10" lean-forward="true" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
               </first_editor>
               <second_editor />
             </state>
@@ -64,13 +55,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.test.ts">
+        <entry file="file://$PROJECT_DIR$/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="882">
+              <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -100,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+              <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
                 <element signature="e#14#38#0" expanded="true" />
               </folding>
@@ -187,7 +184,6 @@
         <option value="$PROJECT_DIR$/libs/handler/argsHandler.ts" />
         <option value="$PROJECT_DIR$/libs/handler/argsHandler.test.ts" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/libs/util/argsParser.test.ts" />
         <option value="$PROJECT_DIR$/libs/handler/fileHandler.ts" />
         <option value="$PROJECT_DIR$/libs/handler/filewatcher.ts" />
@@ -214,6 +210,7 @@
         <option value="$PROJECT_DIR$/libs/util/ipFinder.ts" />
         <option value="$PROJECT_DIR$/test/logger.sh" />
         <option value="$PROJECT_DIR$/libs/util/filewatcher.ts" />
+        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -433,7 +430,7 @@
       <workItem from="1556938360474" duration="25608000" />
       <workItem from="1556976740347" duration="50102000" />
       <workItem from="1557061838868" duration="2859000" />
-      <workItem from="1557098133850" duration="2774000" />
+      <workItem from="1557098133850" duration="5223000" />
     </task>
     <servers />
   </component>
@@ -470,13 +467,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81343000" />
+    <option name="totallyTimeSpent" value="83792000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25824177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -579,13 +576,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/handler/handlerInterface.ts" />
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/util/fileReader.ts" />
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.test.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -615,24 +605,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/util/validator/abuseIpdb.ts" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/test_access_log_1">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -768,25 +744,46 @@
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+          <caret line="77" column="10" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding>
             <element signature="e#14#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="882">
+          <caret line="49" column="51" selection-start-line="49" selection-start-column="51" selection-end-line="49" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.config.json.example">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="233">
+          <caret line="18" column="5" lean-forward="true" selection-end-line="48" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/test_access_log_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" lean-forward="true" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="318">
-            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          <first_editor relative-caret-position="385">
+            <caret line="101" column="10" lean-forward="true" selection-start-line="101" selection-start-column="10" selection-end-line="101" selection-end-column="10" />
           </first_editor>
           <second_editor />
         </state>
