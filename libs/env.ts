@@ -11,6 +11,7 @@ export class Env {
     static ENV_CONFIG_FILENAME: string = 'filename'
     static ENV_CONFIG_FULLPATH: string = 'fullpath'
     static ENV_CONFIG_COMMANDS: string = 'commands'
+    static ENV_CONFIG_IPADDRESS: string = 'ipaddress'
 
     static ENV_CONFIG: string = 'configuration'
 
