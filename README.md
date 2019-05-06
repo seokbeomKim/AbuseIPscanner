@@ -1,7 +1,5 @@
 # AbuseIPScanner
-A log file watcher using other web sites.
-This is a small monitoring tool for my personal server, 
-but I could not find the one. 
+A simple log file watcher.
 
 ## Usage
 
