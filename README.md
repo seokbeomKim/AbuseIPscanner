@@ -209,6 +209,4 @@ It is not easy to figure out the exact rule for that, but if you want to add som
 ## Author
 김석범(Sukbeom Kim), sukbeom.kim@gmail.com
 
-For me, This is a small project and a kind of learning project. 
-You can use and modify the source freely or any requirements, PR would be greeting.
  
