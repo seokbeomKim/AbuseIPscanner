@@ -7,24 +7,18 @@ A simple log file watcher.
 
 The application requires Node.js runtime environment. 
 In development environment, the version of Node.js is `v11.10.0`. 
-If you have any problems with running it, please let me know through the Issue tracker.
-
-You can check the version with:
-
-```bash
-$ node --version
-```
 
 ### Installation
 
-You can download the code  with:
+You can download the code with:
 
 ```bash
 $ git clone https://github.com/seokbeomKim/AbuseIPscanner
 ```
 
-After clone the code, install dependencies with `npm` or `yarn` and 
-compile typescript codes with 
+Then, install dependencies with `npm` or `yarn`.
+
+Now we can compile typescript codes with 
 
 ```bash
 $ node_modules/typescript/bin/tsc
@@ -33,18 +27,18 @@ $ node_modules/typescript/bin/tsc
 ### Run
 
 ```bash
-# Copy configuration file
+# Copy a configuration file
 $ cp .config.json.example ~/.abuseipscanners
 
-# Run application
+# Run the application
 $ node main
 ```
 
 #### Arguments
-There are few arguments available. 
+There are few arguments available. You can check with `node main -h`.
 
 ### Configuration
-You can check the configuration file: `.config.json.example`
+The example of configuration: `.config.json.example`
 
 ```json
 {
@@ -98,7 +92,7 @@ You can check the configuration file: `.config.json.example`
 }
 ```
 #### Files
-Set a file(directory or regular file) path to watch.
+Set a file (directory or regular file) path to watch.
 ```json
 {
     "files": [
@@ -114,7 +108,7 @@ Set a file(directory or regular file) path to watch.
 ```
 
 #### Rules
-This is a rule to parse log file. 
+Set a rule to parse log file. 
 
 ```json
 {
@@ -141,7 +135,7 @@ This is a rule to parse log file.
       ]
 }
 ```
-For example, if the log file has a form like -
+For example, if the log file has a form as following -
 
 ```text
 200.206.200.179 - - [05/May/2019:00:58:11 +0900] "GET / HTTP/1.1" 302 -
@@ -149,14 +143,14 @@ For example, if the log file has a form like -
 103.73.157.162 - - [05/May/2019:01:28:20 +0900] "GET /xmlrpc.php HTTP/1.1" 404 1015
 103.73.157.162 - - [05/May/2019:01:28:21 +0900] "HEAD /xmlrpc.php HTTP/1.1" 404 -
 ```
+the line can be splitted with token `(empty space)`.
+In the case, we can find the ip address from splited items with index `0(zero)`.
 
-the line can be splited with token `(empty space)` 
-and we can find the ip address from splited items with index `0(zero)`.
-
-* id: id of rule (should be unique)
+##### Options for `rules`
+* id: unique rule id
 * token: token for line splitting
-* index: index of ip address when the line is split.
-* regex_match: filename match regular expression. If you use the rule with directory file configuration as
+* index: index of ip address from splitted line
+* regex_match: a regular expression to match filename. If you have a `files` rule as following:
     ```json
     "files": [
         {
@@ -169,7 +163,17 @@ and we can find the ip address from splited items with index `0(zero)`.
       ],
     ```
     there might be multiple files like `./logs/log_file_type_1`, `./logs/log-file_type_2`, ... and so on. 
-    In that case, you can set a rule with regular expression of filename.
+    In that case, you can set a rule with regular expression of filename as:
+    ```json
+    {
+        "name": "Test access log",
+        "id": "test_log",
+        "token": "-",
+        "index": "2",
+        "regex_match": "_type_2",
+        "commands": []
+    }
+    ```
     
 * commands: run to commands 
     
