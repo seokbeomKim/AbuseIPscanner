@@ -2,7 +2,8 @@
   "version": "0.0.1",
   "scripts": {
     "build": "tsc",
-    "test": "tsc && mocha -r ts-node/register **/*.test.ts"
+    "test": "tsc && mocha -r ts-node/register **/*.test.ts",
+    "clean": "rm -f libs/**/*.js; rm -f *.js; rm -f libs/**/*.js.map; rm -f *.js.map; rm -f libs/*.js.map; rm -f libs/*.js"
   },
   "dependencies": {
     "@types/chai": "^4.1.7",
