@@ -32,12 +32,10 @@ var WatchListener = /** @class */ (function () {
      * @param fileName      file name
      */
     WatchListener.prototype.listen = function (eventType, fileName) {
-        if (this.file) {
-            var pathOfModifiedFile = path_1.join(this.file.filepath, fileName);
-            if (fileName && fs.existsSync(pathOfModifiedFile)) {
-                // read last line and find ip address
-                this.readLastLineOfFile(pathOfModifiedFile, ipFinder_1.default.findIpFromLine);
-            }
+        var pathOfModifiedFile = path_1.join(this.file.filepath, fileName);
+        if (fileName && fs.existsSync(pathOfModifiedFile)) {
+            // read last line and find ip address
+            this.readLastLineOfFile(pathOfModifiedFile, ipFinder_1.default.findIpFromLine);
         }
     };
     WatchListener.prototype.readLastLineOfFile = function (filePath, callback) {
@@ -62,13 +60,12 @@ var WatchListener = /** @class */ (function () {
         }
     };
     WatchListener.prototype.requestValidate = function (address, read) {
-        console.log('requestValidate');
         var validator = require('@util/ipValidator');
         validator.validate(address, read, function (address, read) {
             var commands = _env_1.envManager.getEnv(_env_1.Env.ENV_CONFIG_COMMANDS);
             for (var i = 0; i < commands.length; i++) {
                 var shelljs = require('shelljs');
-                shelljs.exec(commands[i]);
+                shelljs.exec(commands[i] + " " + address + " " + read);
             }
         });
     };
@@ -90,12 +87,7 @@ var FileWatcher = /** @class */ (function () {
         for (var i = 0; i < this.config.files.length; ++i) {
             var filePath = path_1.resolve(this.config.files[i].filepath);
             var listener = new WatchListener(this.config.files[i]);
-            fs.watch(filePath, { encoding: 'utf-8' }, listener.listen);
-        }
-    };
-    FileWatcher.prototype.removeFileWatcher = function () {
-        for (var i = 0; i < this.config.files.length; ++i) {
-            fs.unwatchFile(this.config.files[i].filepath);
+            fs.watch(filePath, { encoding: 'utf-8' }, listener.listen.bind(listener));
         }
     };
     return FileWatcher;

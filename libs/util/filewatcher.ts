@@ -27,16 +27,12 @@ export class WatchListener {
      */
     listen(eventType: any, fileName: string): void {
 
-        if (this.file) {
+        let pathOfModifiedFile = join(this.file.filepath, fileName)
+        if (fileName && fs.existsSync(pathOfModifiedFile)) {
 
-            let pathOfModifiedFile = join(this.file.filepath, fileName)
-            if (fileName && fs.existsSync(pathOfModifiedFile)) {
-
-                // read last line and find ip address
-                this.readLastLineOfFile(pathOfModifiedFile,
-                    IpFinder.findIpFromLine)
-            }
-
+            // read last line and find ip address
+            this.readLastLineOfFile(pathOfModifiedFile,
+                IpFinder.findIpFromLine)
         }
     }
 
@@ -76,7 +72,7 @@ export class WatchListener {
 
             for (let i = 0; i < commands.length; i++) {
                 const shelljs = require('shelljs')
-                shelljs.exec(commands[i])
+                shelljs.exec(commands[i] + " " + address + " " + read)
             }
 
         })
@@ -101,22 +97,11 @@ export class FileWatcher {
 
     addFileWatcher() {
         for (let i = 0; i < this.config.files.length; ++i) {
-
             let filePath : string = resolve(this.config.files[i].filepath)
             let listener : WatchListener = new WatchListener(this.config.files[i])
-
-
-            fs.watch(filePath,
-                { encoding: 'utf-8'}, listener.listen)
+            fs.watch(filePath, { encoding: 'utf-8'}, listener.listen.bind(listener))
         }
     }
-
-    removeFileWatcher () {
-        for (let i = 0; i < this.config.files.length; ++i) {
-            fs.unwatchFile(this.config.files[i].filepath)
-        }
-    }
-
 }
 
 module.exports = new FileWatcher()

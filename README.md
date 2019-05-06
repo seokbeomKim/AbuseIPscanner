@@ -1,15 +1,7 @@
 # AbuseIPScanner
-A log file watcher for Apache HTTP Daemon with abuseipdb.com
-
-## Why AbuseIPScanner?
-I was looking for the small monitoring tool for my personal server, 
+A log file watcher using other web sites.
+This is a small monitoring tool for my personal server, 
 but I could not find the one. 
-
-The requirement I had was,
-
-* Configurable databases set(including abuseipdb.com)
-* Configurable commands after finding suspicious accessor
-* Easy to use :)
 
 ## Usage
 
@@ -25,8 +17,13 @@ You can check the version with:
 $ node --version
 ```
 
-
 ### Installation
+
+You can download the code and install dependencies with:
+
+```bash
+
+```
 
 ### Run
 

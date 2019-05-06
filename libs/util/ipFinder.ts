@@ -22,21 +22,15 @@ export default class IpFinder {
         for (let i = 0; i < rules.length; i++) {
             let pattern = new RegExp(rules[i].regex_match)
 
-            if (pattern.test(basename(file.filepath))) {
+            if (pattern.test(basename(filepath))) {
 
                 let adjusted = Rules.adjustRule(rules[i], read)
                 if (adjusted) {
                     // check the result is ip address
                     let ipPattern = /[0-9]+.[0-9]+.[0-9]+.[0-9]/
                     if (ipPattern.test(adjusted)) {
-
-                        // When it succeed to find proper rule,
-                        // save its commands to Env
-
                         candidates.push(adjusted)
-
                         envManager.setEnv(Env.ENV_CONFIG_COMMANDS, rules[i].commands)
-
                     } else {
                         err.showMessage(err.ERROR_WRONG_IP_PATTERN)
                     }

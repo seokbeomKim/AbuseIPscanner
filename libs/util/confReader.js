@@ -17,7 +17,6 @@ var ConfigReader = /** @class */ (function () {
             this.config = new configuration_1.Configuration(JSON.parse(fs_1.readFileSync(path).toString()));
         }
         catch (e) {
-            console.error(e);
             _error_1.Error.showMessage(_error_1.Error.ERROR_CONFIG_MISSING);
             process.exit(_error_1.Error.ERROR_CONFIG_MISSING);
             // If read a configuration file with exception or error,

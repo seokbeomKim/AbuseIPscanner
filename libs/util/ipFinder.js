@@ -20,14 +20,12 @@ var IpFinder = /** @class */ (function () {
         var candidates = [];
         for (var i = 0; i < rules.length; i++) {
             var pattern = new RegExp(rules[i].regex_match);
-            if (pattern.test(path_1.basename(file.filepath))) {
+            if (pattern.test(path_1.basename(filepath))) {
                 var adjusted = configuration_1.Rules.adjustRule(rules[i], read);
                 if (adjusted) {
                     // check the result is ip address
                     var ipPattern = /[0-9]+.[0-9]+.[0-9]+.[0-9]/;
                     if (ipPattern.test(adjusted)) {
-                        // When it succeed to find proper rule,
-                        // save its commands to Env
                         candidates.push(adjusted);
                         _env_1.envManager.setEnv(_env_1.Env.ENV_CONFIG_COMMANDS, rules[i].commands);
                     }

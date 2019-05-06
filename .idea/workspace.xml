@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3297456-b6bf-425c-9b1c-a3cf4e9db340" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.config.json.example" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/env.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/error.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/model/configuration.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/argsParser.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/confReader.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/confReader.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/filewatcher.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/ipFinder.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/ipFinder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/ipValidator.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/ipValidator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/libs/util/ipaddrValidator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logs/test_access_log_1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/echo.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/logger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/confReader.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/confReader.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/confReader.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/confReader.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/filewatcher.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/filewatcher.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.js" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/util/ipFinder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/libs/util/ipFinder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/testLog" beforeDir="false" afterPath="$PROJECT_DIR$/logs/testLog" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/echo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/echo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/logger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test/logger.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,40 +23,42 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/util/confReader.test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.config.json.example">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="56" />
+            <state relative-caret-position="450">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="318">
+                <caret line="24" selection-start-line="24" selection-end-line="24" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -68,20 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.test.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="422">
               <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.test.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -92,8 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+            <state relative-caret-position="-358">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -104,30 +90,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="116">
+              <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <element signature="e#145#175#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+            <state relative-caret-position="374">
+              <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
               <folding>
                 <element signature="e#14#38#0" expanded="true" />
               </folding>
@@ -136,28 +109,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/util/ipaddrValidator.ts">
+        <entry file="file://$PROJECT_DIR$/libs/env.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="172">
+              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/testLog">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>path</find>
-      <find>Error.</find>
-      <find>handler</find>
-      <find>watchlistener</find>
-      <find>handlers</find>
-      <find>new watchlistener</find>
-      <find>findip</find>
-      <find>readlast</find>
-      <find>read</find>
-      <find>adjust</find>
       <find>adjustrule</find>
       <find>getrule</find>
       <find>error</find>
@@ -175,9 +143,19 @@
       <find>rules</find>
       <find>endswith</find>
       <find>ipvoid.com</find>
-      <find>validator</find>
       <find>ipvalidator</find>
       <find>this.file</find>
+      <find>WatchListener</find>
+      <find>addfilewatcher</find>
+      <find>new</find>
+      <find>listener.</find>
+      <find>listener</find>
+      <find>listener.listen</find>
+      <find>lister</find>
+      <find>listen</find>
+      <find>filewatcher</find>
+      <find>validat</find>
+      <find>validator</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -192,7 +170,6 @@
         <option value="$PROJECT_DIR$/handler/handlerRequester.ts" />
         <option value="$PROJECT_DIR$/handlerRequester.ts" />
         <option value="$PROJECT_DIR$/watcher/filewatcher.ts" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/context.json" />
         <option value="$PROJECT_DIR$/contextConfiguration.ts" />
         <option value="$PROJECT_DIR$/DIRequester.ts" />
@@ -220,13 +197,11 @@
         <option value="$PROJECT_DIR$/libs/util/argsParser.ts" />
         <option value="$PROJECT_DIR$/logs/test_access_log_1" />
         <option value="$PROJECT_DIR$/libs/util/filewatcher.test.ts" />
-        <option value="$PROJECT_DIR$/libs/util/confReader.ts" />
         <option value="$PROJECT_DIR$/libs/error.ts" />
         <option value="$PROJECT_DIR$/libs/util/ipaddrValidator.ts" />
         <option value="$PROJECT_DIR$/libs/util/validator/abuseIpdb.ts" />
         <option value="$PROJECT_DIR$/libs/util/validator/validator.ts" />
         <option value="$PROJECT_DIR$/libs/util/ipValidator.test.ts" />
-        <option value="$PROJECT_DIR$/libs/util/ipFinder.ts" />
         <option value="$PROJECT_DIR$/.config.json.example" />
         <option value="$PROJECT_DIR$/libs/model/configuration.ts" />
         <option value="$PROJECT_DIR$/libs/env.ts" />
@@ -234,7 +209,12 @@
         <option value="$PROJECT_DIR$/libs/util/confReader.test.ts" />
         <option value="$PROJECT_DIR$/libs/util/ipFinder.test.ts" />
         <option value="$PROJECT_DIR$/main.ts" />
+        <option value="$PROJECT_DIR$/libs/util/confReader.ts" />
+        <option value="$PROJECT_DIR$/test/echo.sh" />
+        <option value="$PROJECT_DIR$/libs/util/ipFinder.ts" />
+        <option value="$PROJECT_DIR$/test/logger.sh" />
         <option value="$PROJECT_DIR$/libs/util/filewatcher.ts" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -256,7 +236,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,6 +274,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -335,7 +315,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Mocha.Parsing the ip address from test files">
+  <component name="RunManager" selected="Node.js.예제 파일로 메인 디버그">
+    <configuration name="예제 파일로 메인 디버그" type="NodeJSConfigurationType" application-parameters="-c .config.json.example" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="Debug main node" type="NodeJSConfigurationType" path-to-js-file="main.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <configuration name="Parsing the ip address from test files" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -415,6 +401,15 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Mocha.Parsing the ip address from test files" />
+      <item itemvalue="Mocha.Parsing the ip address from test files.test_access_log_1" />
+      <item itemvalue="Mocha.Parsing the ip address from test files.test_access_log_2" />
+      <item itemvalue="Mocha.Testing read a last line of the file.Read 'test_access_log_2'" />
+      <item itemvalue="Mocha.Testing validator works...Testing on https://www.abuseipdb.com/check/132.232.113.170" />
+      <item itemvalue="Node.js.예제 파일로 메인 디버그" />
+      <item itemvalue="Node.js.Debug main node" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Mocha.Parsing the ip address from test files" />
@@ -437,6 +432,8 @@
       <updated>1556938359086</updated>
       <workItem from="1556938360474" duration="25608000" />
       <workItem from="1556976740347" duration="50102000" />
+      <workItem from="1557061838868" duration="2859000" />
+      <workItem from="1557098133850" duration="2774000" />
     </task>
     <servers />
   </component>
@@ -473,12 +470,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75710000" />
+    <option name="totallyTimeSpent" value="81343000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25213677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25824177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -488,8 +486,8 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3284974" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3284974" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4224599" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32834226" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3828877" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -539,32 +537,17 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/libs/util/argsParser.ts</url>
           <line>148</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/libs/util/ipFinder.test.ts</url>
           <line>20</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/libs/util/ipValidator.ts</url>
-          <line>44</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/libs/util/ipFinder.test.ts</url>
           <line>40</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/libs/util/ipValidator.ts</url>
-          <line>10</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="22" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -574,23 +557,7 @@
     <entry file="file://$PROJECT_DIR$/contextConfiguration.ts" />
     <entry file="file://$PROJECT_DIR$/DIRequester.ts" />
     <entry file="file://$PROJECT_DIR$/handler/configHandler.ts" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="324">
-            <caret line="18" column="66" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/handler/processHandler.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/handler/processHandler.ts" />
     <entry file="file://$PROJECT_DIR$/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -611,13 +578,7 @@
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/handler/handlerInterface.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/handler/handlerInterface.ts" />
     <entry file="file://$PROJECT_DIR$/tsconfig.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -625,28 +586,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/fileReader.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/fileReader.ts" />
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.test.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/argsParser.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#14#51#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/test_access_log_2">
       <provider selected="true" editor-type-id="text-editor">
@@ -672,13 +614,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/validator/abuseIpdb.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/validator/abuseIpdb.ts" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -686,60 +622,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/logger.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/echo.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/env.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/confReader.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-          <folding>
-            <element signature="e#98#135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.config.json.example">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -757,27 +643,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.ts">
+    <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/confReader.test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="47" column="51" lean-forward="true" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
+        <state relative-caret-position="594">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.test.ts">
+    <entry file="file://$PROJECT_DIR$/libs/util/confReader.test.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
+        <state relative-caret-position="738">
+          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -786,8 +665,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="396">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#145#175#0" expanded="true" />
@@ -795,12 +674,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.ts">
+    <entry file="file://$PROJECT_DIR$/libs/util/confReader.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="38" lean-forward="true" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+        <state relative-caret-position="360">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding>
-            <element signature="e#0#37#0" expanded="true" />
+            <element signature="e#98#135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/argsParser.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <element signature="e#14#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -812,13 +701,94 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.test.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/env.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/testLog">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logged">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/logger.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/echo.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/ipValidator.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-358">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/util/ipFinder.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="32" column="85" selection-start-line="32" selection-start-column="85" selection-end-line="32" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/libs/util/filewatcher.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
+        <state relative-caret-position="374">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
           <folding>
             <element signature="e#14#38#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.config.json.example">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="318">
+            <caret line="24" selection-start-line="24" selection-end-line="24" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

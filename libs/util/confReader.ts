@@ -23,7 +23,6 @@ export class ConfigReader {
             this.config = new Configuration(JSON.parse(readFileSync(path).toString()))
 
         } catch (e) {
-            console.error(e)
             Error.showMessage(Error.ERROR_CONFIG_MISSING)
             process.exit(Error.ERROR_CONFIG_MISSING)
 
